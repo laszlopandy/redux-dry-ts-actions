@@ -1,0 +1,30 @@
+{
+  "name": "redux-dry-ts-actions",
+  "version": "1.0.0",
+  "description": "Micro library to create actions for redux with automatically inferred TypeScript types",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laszlopandy/redux-dry-ts-actions.git"
+  },
+  "keywords": [
+    "redux",
+    "fsa",
+    "types",
+    "dry",
+    "action-types"
+  ],
+  "author": "Laszlo Pandy <laszlok2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laszlopandy/redux-dry-ts-actions/issues"
+  },
+  "homepage": "https://github.com/laszlopandy/redux-dry-ts-actions#readme",
+  "devDependencies": {
+    "typescript": "3.4.5"
+  }
+}

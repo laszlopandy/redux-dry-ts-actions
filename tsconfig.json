@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "removeComments": true,
+        "outDir": "dist/",
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "target": "es2015",
+    },
+    "include": [
+        "index.ts",
+    ],
+}
