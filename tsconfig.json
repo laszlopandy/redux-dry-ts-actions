@@ -11,6 +11,7 @@
         "noUnusedLocals": true,
         "target": "es5",
         "lib": [ "es2015" ],
+        "types": [],
     },
     "include": [
         "index.ts",
