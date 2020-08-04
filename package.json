@@ -1,11 +1,13 @@
 {
   "name": "redux-dry-ts-actions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Micro library to create actions for redux with automatically inferred TypeScript types",
   "main": "dist/index.js",
+  "files": ["dist/"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "tsc"
+    "prepublish": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
